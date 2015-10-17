@@ -1,0 +1,4 @@
+Canary is an advanced signal to an attack or harmful manipulation
+Stack canary is a piece of data infront of the return pointer. Check Canary value to the original canary value. 
+If the value of the canary has been manipulated, then dump out.
+This way we can prevernt buffer overflow attacks.
