@@ -1,0 +1,15 @@
+Command set 1
+
+root@ubuntu:/home/alakshminara/cse509systemsecurity# cc bufo.c 
+root@ubuntu:/home/alakshminara/cse509systemsecurity# ls
+a.out  bufo.c  bufoCommands  README.md
+root@ubuntu:/home/alakshminara/cse509systemsecurity# ./a.out `perl -e 'print "A"x12'`
+Finished AAAAAAAAAAAA
+root@ubuntu:/home/alakshminara/cse509systemsecurity# ./a.out `perl -e 'print "A"x20'`
+Finished AAAAAAAAAAAAAAAAAAAA
+root@ubuntu:/home/alakshminara/cse509systemsecurity# ./a.out `perl -e 'print "A"x30'`
+Finished AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+*** stack smashing detected ***: ./a.out terminated
+Aborted (core dumped)
+
+
