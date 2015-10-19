@@ -4,10 +4,11 @@
 
 int main(int argc, char *argv[])
 {
-
-	char *x = (char *) malloc(40);
-	strncpy(x, argv[1], 40);
-	printf("%s",x);
+	int a = 0;
+	//char *x = (char *) malloc(40);
+	//strcpy(x, argv[1]);
+	char x = 'b';
+	printf("%c %p",x);
 	printf("\n");
 	return (0);
 
